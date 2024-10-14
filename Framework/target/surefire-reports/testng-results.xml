@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-06T21:17:16 IST" name="Suite1" finished-at="2024-10-06T21:17:56 IST" duration-ms="39877">
+    <groups>
+      <group name="datadriven">
+        <method signature="T004_Tutorialsubnames.tutorial()[pri:1, instance:testCases.T004_Tutorialsubnames@723ca036]" name="tutorial" class="testCases.T004_Tutorialsubnames"/>
+      </group> <!-- datadriven -->
+      <group name="regression">
+        <method signature="T002_mainbartest.maintitlecheck()[pri:0, instance:testCases.T002_mainbartest@533bda92]" name="maintitlecheck" class="testCases.T002_mainbartest"/>
+        <method signature="T003_hoveraction.ha()[pri:0, instance:testCases.T003_hoveraction@304bb45b]" name="ha" class="testCases.T003_hoveraction"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="logoandtitle.logotitlecheck()[pri:0, instance:testCases.logoandtitle@1040be71]" name="logotitlecheck" class="testCases.logoandtitle"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="T002_mainbartest.maintitlecheck()[pri:0, instance:testCases.T002_mainbartest@533bda92]" name="maintitlecheck" class="testCases.T002_mainbartest"/>
+        <method signature="logoandtitle.logotitlecheck()[pri:0, instance:testCases.logoandtitle@1040be71]" name="logotitlecheck" class="testCases.logoandtitle"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-10-06T21:17:16 IST" name="Test" finished-at="2024-10-06T21:17:56 IST" duration-ms="39877">
+      <class name="testCases.T002_mainbartest">
+        <test-method is-config="true" signature="openurl(java.lang.String,java.lang.String)[pri:0, instance:testCases.T002_mainbartest@533bda92]" started-at="2024-10-06T21:17:20 IST" name="openurl" finished-at="2024-10-06T21:17:23 IST" duration-ms="3528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[window]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="maintitlecheck()[pri:0, instance:testCases.T002_mainbartest@533bda92]" started-at="2024-10-06T21:17:23 IST" name="maintitlecheck" finished-at="2024-10-06T21:17:24 IST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maintitlecheck -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.T002_mainbartest@533bda92]" started-at="2024-10-06T21:17:24 IST" name="close" finished-at="2024-10-06T21:17:24 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.T002_mainbartest -->
+      <class name="testCases.T003_hoveraction">
+        <test-method is-config="true" signature="openurl(java.lang.String,java.lang.String)[pri:0, instance:testCases.T003_hoveraction@304bb45b]" started-at="2024-10-06T21:17:24 IST" name="openurl" finished-at="2024-10-06T21:17:27 IST" duration-ms="3429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[window]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="ha()[pri:0, instance:testCases.T003_hoveraction@304bb45b]" started-at="2024-10-06T21:17:27 IST" name="ha" finished-at="2024-10-06T21:17:50 IST" duration-ms="22262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ha -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.T003_hoveraction@304bb45b]" started-at="2024-10-06T21:17:50 IST" name="close" finished-at="2024-10-06T21:17:51 IST" duration-ms="953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.T003_hoveraction -->
+      <class name="testCases.T004_Tutorialsubnames">
+        <test-method is-config="true" signature="openurl(java.lang.String,java.lang.String)[pri:0, instance:testCases.T004_Tutorialsubnames@723ca036]" started-at="2024-10-06T21:17:51 IST" name="openurl" finished-at="2024-10-06T21:17:54 IST" duration-ms="3133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[window]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="tutorial()[pri:1, instance:testCases.T004_Tutorialsubnames@723ca036]" started-at="2024-10-06T21:17:54 IST" name="tutorial" finished-at="2024-10-06T21:17:54 IST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tutorial -->
+        <test-method signature="project()[pri:2, instance:testCases.T004_Tutorialsubnames@723ca036]" started-at="2024-10-06T21:17:54 IST" name="project" finished-at="2024-10-06T21:17:54 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- project -->
+        <test-method signature="firstyear()[pri:3, instance:testCases.T004_Tutorialsubnames@723ca036]" started-at="2024-10-06T21:17:54 IST" name="firstyear" finished-at="2024-10-06T21:17:55 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstyear -->
+        <test-method signature="CSE_notes()[pri:4, instance:testCases.T004_Tutorialsubnames@723ca036]" started-at="2024-10-06T21:17:55 IST" name="CSE_notes" finished-at="2024-10-06T21:17:55 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CSE_notes -->
+        <test-method signature="ECE_notes()[pri:5, instance:testCases.T004_Tutorialsubnames@723ca036]" started-at="2024-10-06T21:17:55 IST" name="ECE_notes" finished-at="2024-10-06T21:17:55 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ECE_notes -->
+        <test-method signature="ME_notes()[pri:6, instance:testCases.T004_Tutorialsubnames@723ca036]" started-at="2024-10-06T21:17:55 IST" name="ME_notes" finished-at="2024-10-06T21:17:55 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ME_notes -->
+        <test-method signature="EE_notes()[pri:7, instance:testCases.T004_Tutorialsubnames@723ca036]" started-at="2024-10-06T21:17:55 IST" name="EE_notes" finished-at="2024-10-06T21:17:55 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EE_notes -->
+        <test-method signature="QPS()[pri:8, instance:testCases.T004_Tutorialsubnames@723ca036]" started-at="2024-10-06T21:17:55 IST" name="QPS" finished-at="2024-10-06T21:17:56 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QPS -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.T004_Tutorialsubnames@723ca036]" started-at="2024-10-06T21:17:56 IST" name="close" finished-at="2024-10-06T21:17:56 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.T004_Tutorialsubnames -->
+      <class name="testCases.logoandtitle">
+        <test-method is-config="true" signature="openurl(java.lang.String,java.lang.String)[pri:0, instance:testCases.logoandtitle@1040be71]" started-at="2024-10-06T21:17:16 IST" name="openurl" finished-at="2024-10-06T21:17:20 IST" duration-ms="3500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[window]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="logotitlecheck()[pri:0, instance:testCases.logoandtitle@1040be71]" started-at="2024-10-06T21:17:20 IST" name="logotitlecheck" finished-at="2024-10-06T21:17:20 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logotitlecheck -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.logoandtitle@1040be71]" started-at="2024-10-06T21:17:20 IST" name="close" finished-at="2024-10-06T21:17:20 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.logoandtitle -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite1 -->
+</testng-results>

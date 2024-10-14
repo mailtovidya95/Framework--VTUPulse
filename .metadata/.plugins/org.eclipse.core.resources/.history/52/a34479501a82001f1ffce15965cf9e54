@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","22301","ha","Suite1","Fri Oct 04 06:55:56 IST 2024","passed","Fri Oct 04 06:56:18 IST 2024","testCases.T003_hoveraction","Test","testCases.T003_hoveraction","ha"
+"","270","tutorial","Suite1","Fri Oct 04 06:56:32 IST 2024","passed","Fri Oct 04 06:56:33 IST 2024","testCases.T004_Tutorialsubnames","Test","testCases.T004_Tutorialsubnames","tutorial"
+"","90","logotitlecheck","Suite1","Fri Oct 04 06:55:47 IST 2024","passed","Fri Oct 04 06:55:47 IST 2024","testCases.logoandtitle","Test","testCases.logoandtitle","logotitlecheck"
+"","507","maintitlecheck","Suite1","Fri Oct 04 06:55:51 IST 2024","passed","Fri Oct 04 06:55:52 IST 2024","testCases.T002_mainbartest","Test","testCases.T002_mainbartest","maintitlecheck"

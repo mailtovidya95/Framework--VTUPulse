@@ -1,0 +1,6 @@
+package testCases;
+
+public class T007_img extends T006_clickheretodownload {
+	driver.findElement(By.xpath("//*[@id=\"product-4589\"]/div[1]/div/div/div[1]/img")).isDisplayed();
+
+}

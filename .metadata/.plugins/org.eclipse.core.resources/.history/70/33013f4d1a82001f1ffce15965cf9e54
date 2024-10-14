@@ -1,0 +1,1 @@
+{"uuid":"6d442e66-6d28-4ac1-a45b-a01349935915","name":"testCases.T003_hoveraction","children":["a5ef2d4a-38d2-4789-870f-cde30a9d082a"],"befores":[{"name":"openurl","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1728005152221,"stop":1728005156380}],"afters":[],"start":1728005142183,"stop":1728005193139}

@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite1" verbose="1">
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"/>
+    </listeners>
+    <test name="Test">
+        <parameter name="os" value="window"/>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testCases.logoandtitle"/>
+            <class name="testCases.T002_mainbartest"/>
+            <class name="testCases.T003_hoveraction"/>
+            <class name="testCases.T004_Tutorialsubnames"/>
+             <class name="testCases.T006_clickheretodownload"/>
+             <class name="testCases.T007_img"/>
+
+
+        </classes>
+    </test>
+</suite>

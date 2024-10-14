@@ -1,0 +1,36 @@
+package testCases;
+
+import org.openqa.selenium.By;
+import org.testng.Assert;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+import testBase.basetest;
+
+import java.util.List;
+
+public class T004_Tutorialsubnames extends basetest {
+
+    @Test(groups = "datadriven")
+    public void tutorial()throws Throwable
+    {
+    	driver.findElement(By.xpath("//*[@id=\"menu-item-4309\"]/a")).click();
+    	List<WebElement> name = driver.findElements(By.xpath("//li/ul/li/a"));
+    	for (int i = 1; i <= 8; i++) {
+            String list = driver.findElement(By.xpath("(//li/ul/li/a)["+i+"]")).getText();
+            Assert.assertEquals(p.getProperty("expectedTitles"),list);
+            System.out.println( list);}
+    }
+
+   /* {
+        driver.findElement(By.xpath("//*[@id=\"menu-item-4309\"]/a")).click();
+        List<WebElement> name = driver.findElements(By.xpath("//li/ul/li/a"));
+        String[] expectedTitles = {"C++ Programs", "Computer Graphics", "Python Tutorial", "Julia Tutorial", "Big Data Analytics Tutorial", "Machine Learning", "Artificial Intelligence", "PERL"};
+        for (int i = 1; i <= 8; i++) {
+            String list = driver.findElement(By.xpath("(//li/ul/li/a)["+i+"]")).getText();
+            Assert.assertEquals(expectedTitles[i-1],list);
+            System.out.println( list);
+        }*/
+    }
+
+
+}

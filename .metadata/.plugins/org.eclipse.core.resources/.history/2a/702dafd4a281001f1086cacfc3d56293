@@ -1,0 +1,15 @@
+package VTUPulse.Framework;
+
+import org.testng.annotations.Test;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class NewTest {
+  @Test
+  public void f() {
+	  WebDriver driver = new ChromeDriver();
+	  driver.get("https://vtupulse.com/");
+  }
+}

@@ -1,0 +1,8 @@
+package testCases;
+
+import testBase.basetest;
+
+public class T007_img extends basetest {
+	driver.findElement(By.xpath("//*[@id=\"product-4589\"]/div[1]/div/div/div[1]/img")).isDisplayed();
+
+}

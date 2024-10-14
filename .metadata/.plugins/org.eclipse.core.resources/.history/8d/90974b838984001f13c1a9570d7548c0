@@ -1,0 +1,25 @@
+package testCases;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+
+import testBase.Click_here_to_download;
+import testBase.basetest;
+
+public class T007_img extends Click_here_to_download {
+	
+	@Test
+	public void testimg()
+	{
+List<WebElement> countElement=driver.findElements(By.xpath("//ol[@class=\"flex-control-nav flex-control-thumbs\"]/li/img"));
+for(int i=1;i<=countElement.size();i++)
+{
+	driver.findElement(By.xpath("ol[@class=\"flex-control-nav flex-control-thumbs\"]/li["+i+"]/img")).isDisplayed();
+}
+
+	
+}
+}

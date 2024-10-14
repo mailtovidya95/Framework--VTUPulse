@@ -1,0 +1,2 @@
+url=https://vtupulse.com/
+String[] expectedTitles = {"Tutorial", "Projects", "1st Year", "CSE Notes", "ECE Notes", "ME Notes", "EE & CV Notes", "QPs"};

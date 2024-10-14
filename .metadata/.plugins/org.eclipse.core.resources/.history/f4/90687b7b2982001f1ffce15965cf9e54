@@ -1,0 +1,1 @@
+{"uuid":"8caf17a3-f78a-4ec1-a6b1-b0e9ea7db369","name":"testCases.T002_mainbartest","children":["4059f836-a57a-4e23-adbc-f923adfbc874"],"befores":[{"name":"openurl","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1728029875671,"stop":1728029880259}],"afters":[],"start":1728029869846,"stop":1728029915874}

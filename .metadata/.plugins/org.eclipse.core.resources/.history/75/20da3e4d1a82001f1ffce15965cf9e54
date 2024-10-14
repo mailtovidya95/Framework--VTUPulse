@@ -1,0 +1,1 @@
+{"uuid":"3c4b3ca4-6723-424c-8b83-802c1411440e","name":"testCases.T004_Tutorialsubnames","children":["30a93a1b-578d-4ff1-a4a6-d2f9e2d6b1f4"],"befores":[{"name":"openurl","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1728005178687,"stop":1728005192714}],"afters":[],"start":1728005142183,"stop":1728005193139}

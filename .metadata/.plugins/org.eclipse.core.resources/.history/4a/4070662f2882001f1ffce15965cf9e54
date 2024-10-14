@@ -1,0 +1,25 @@
+package testCases;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+import testBase.basetest;
+
+import java.util.List;
+
+public class T004_Tutorialsubnames extends basetest {
+
+    @Test(groups = "datadriven")
+    public void tutorial()throws Throwable
+    {
+        List<WebElement> name=driver.findElements(By.xpath("//li[@id=\"menu-item-4309\"]/ul/li"));
+        for(int i=1;i<= name.size();i++)
+        {
+            String list=driver.findElement(By.xpath("//li[@id=\"menu-item-4309\"]/ul/li["+i+"]")).getText();
+            //String[] actual={""}
+            System.out.println(list);
+        }
+    }
+
+
+}
